@@ -1,9 +1,15 @@
 h1 {
-    color: #6666ff;
-
+    color: #6666ff; position: relative; left: 390px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2 {
     color: #666699;
     
+}
+
+.logo {
+  
+    width: 190px; position:relative; left: 550px;
+
 }
