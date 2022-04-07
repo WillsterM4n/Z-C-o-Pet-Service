@@ -1,15 +1,32 @@
 h1 {
-    color: #6666ff; position: relative; left: 390px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6666ff; position: relative; left: 350px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 40px;
 }
 
 h2 {
     color: #666699;
-    
+    font-family: fantasy;
+    font-size: 30px;
 }
 
 .logo {
   
     width: 190px; position:relative; left: 550px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
 
+}
+.quemsomos {
+
+    width: 10%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 20px 0px;
+}
+.pet {
+    color: #074b66;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
 }
