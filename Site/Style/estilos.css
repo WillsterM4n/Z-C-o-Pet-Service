@@ -30,3 +30,54 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
 }
+
+.centralizar {
+    
+    margin-left:5%;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  .insta {
+    position: absolute; left: 650px;
+  }
+
+  .face {
+   position: absolute; left: 600px;
+
+  }
+
+  .whats {
+    position: absolute; left: 550px;
+
+  }
+
+  .email {
+    position: absolute; left: 700px;
+
+  }
+
+  .redess {
+      position: relative; left: 585px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: large;
+      color: gray;
+
+  } 
+
+  .marcareg {
+      font-size: 115%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      position: absolute; bottom: -590px;
+  }
+
+  .nathan {
+      font-size: 110%;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      position: absolute; left: 1030px; bottom: -573px;
+  }
+
+  .logodagua {
+      position:absolute; left: 1000px;
+      width: 35%;
+  }
