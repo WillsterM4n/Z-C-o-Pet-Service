@@ -68,16 +68,19 @@ h2 {
   .marcareg {
       font-size: 115%;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      position: absolute; bottom: -590px;
+      position: absolute; bottom: auto;
   }
 
   .nathan {
       font-size: 110%;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      position: absolute; left: 1030px; bottom: -573px;
+      position: absolute; left: 1030px; bottom: auto;
   }
 
   .logodagua {
       position:absolute; left: 1000px;
       width: 35%;
+  }
+  .sdsd {
+      overflow-x: hidden;
   }
