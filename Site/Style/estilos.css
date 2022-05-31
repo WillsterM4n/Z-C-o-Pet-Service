@@ -1,9 +1,16 @@
-h1 {
-    color: #6666ff; position: relative; left: 350px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+.primeirafrase {
+    text-align-last: center;
+    color: rgb(102, 102, 255);
+    font-family: "Franklin Gothic Medium";
     font-size: 40px;
 }
 
+.segtexto {
+    text-align-last: center;
+    font-size: larger;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: rgb(0, 102, 102);
+}
 h2 {
     color: #666699;
     font-family: fantasy;
@@ -32,38 +39,35 @@ h2 {
 }
 
 .centralizar {
-    
-    margin-left:5%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right: 30px;
+    margin-left: 3%;
     margin-right: auto;
-    width: 25%;
-  }
-
-  .insta {
-    position: absolute; left: 650px;
-  }
-
-  .face {
-   position: absolute; left: 600px;
-
-  }
-
-  .whats {
-    position: absolute; left: 550px;
-
-  }
-
-  .email {
-    position: absolute; left: 700px;
-
-  }
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+}
 
   .redess {
-      position: relative; left: 585px;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      font-size: large;
-      color: gray;
+    text-align-last: center;
+    font-family: Impact;
+    font-size: large;
+    color: grey;
 
   } 
+  .logosredes {
+    display: flex;
+    flex-direction: row;
+}
+.logosredes > div {
+    width: 60px;
+    text-align: center;
+    position: relative;
+    left: 550px;
+}
 
   .marcareg {
       font-size: 115%;
@@ -74,13 +78,52 @@ h2 {
   .nathan {
       font-size: 110%;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      position: absolute; left: 1030px; bottom: auto;
+      position: absolute; left: 900px; bottom: auto;
   }
 
   .logodagua {
-      position:absolute; left: 1000px;
+      position:absolute; left: 870px;
+      bottom: auto;
       width: 35%;
   }
   .sdsd {
       overflow-x: hidden;
   }
+  .container {
+    position: relative;
+    margin-left: 3%;
+    margin-right: auto;
+    width: 20%;
+    max-width: 50%;
+    max-height: 100%;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    backface-visibility: hidden;
+    transition: all 0.5s ease 0s;
+}
+.middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease 0s;
+}
+.container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+.text {
+    background-color: rgb(76, 175, 80);
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
